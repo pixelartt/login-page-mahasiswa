@@ -1,0 +1,90 @@
+<html>
+ <head>
+  <title>
+   Login Page
+  </title>
+  <style>
+   body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7941e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        .logo {
+            margin-bottom: 50px;
+        }
+        .logo img {
+            width: 100px;
+        }
+        .form-container {
+            background-color: #d3d3d3;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container button {
+            width: 45%;
+            padding: 10px;
+            margin: 10px 2.5%;
+            border: none;
+            border-radius: 5px;
+            background-color: #f7941e;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #e6831a;
+        }
+        .form-container .login-link {
+            display: block;
+            margin-top: 10px;
+            color: #333;
+            font-size: 12px;
+        }
+        .form-container .register-link {
+            margin-top: 20px;
+            color: #333;
+            font-size: 14px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="logo">
+    <img alt="Logo with two overlapping 'C' letters" height="100" src="https://storage.googleapis.com/a1aa/image/YBLohgQpajJeLyXVfjoSYO0cOjYrpSLac7WeXiHhhmpArBjnA.jpg" width="100"/>
+   </div>
+   <div class="form-container">
+    <input placeholder="nama" type="text"/>
+    <input placeholder="npm" type="text"/>
+    <button>
+     Daftar
+    </button>
+    <button>
+     masuk
+    </button>
+    <span class="login-link">
+     sudah punya akun?
+    </span>
+   </div>
+   <div class="register-link">
+    buat akun untuk melanjutkan
+   </div>
+  </div>
+ </body>
+</html>
